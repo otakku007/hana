@@ -1,0 +1,19 @@
+<html>
+
+<head>
+
+<link rel="stylesheet" href="https://cdn.plyr.io/3.5.1/plyr.css"/>
+
+</head>
+
+<body>
+
+<video class='js-player' poster="https://1.bp.blogspot.com/-Li2ZlfnOIxs/X6l0SR47KVI/AAAAAAAAC9Y/yMRvt5gPyWY7fEYF5TPJHuDjDFtL9EchACLcBGAsYHQ/s1366/vflahfafalkcau.png" controls playsinline>
+  <source src="https://www.googleapis.com/drive/v3/files/1rQwkjYHChfixu963rH4JQiMBbYOOt8re?alt=media&key=AIzaSyCXaLrQCt8UFiwR43wLwiC-LOarfSWqWnQ" type="video/mp4">
+</video>
+  
+<script src="https://cdn.plyr.io/3.5.1/plyr.js"></script>
+<script>/*<![CDATA[*/const players = Array.from(document.querySelectorAll('.js-player')).map(player => new Plyr(player));/*]]>*/</script>
+</body>
+
+</html>
