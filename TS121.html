@@ -1,38 +1,24 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"><html dir="ltr"><head><style type="text/css">
-        body,
-        .main,
-        #videocontainer,
-        .thumbnail-holder,
-        .play-button {
-          background: black;
-          height: 100vh;
-          margin: 0;
-          overflow: hidden;
-          position: absolute;
-          width: 100%;
-        }
+<html>
 
-        #videocontainer.type-BLOGGER_UPLOADED .thumbnail-holder {
-          background-size: contain;
-        }
+<head>
 
-        .thumbnail-holder {
-          background-repeat: no-repeat;
-          background-position: center;
-          z-index: 10;
-        }
+<link rel="stylesheet" href="https://cdn.plyr.io/3.5.1/plyr.css"/>
 
-        .play-button {
-          background: url('https://www.gstatic.com/images/icons/material/system/1x/play_arrow_white_48dp.png') rgba(0,0,0,0.1) no-repeat center;
-          cursor: pointer;
-          display: block;
-          z-index: 20;
-        }
-      </style>
-<script type="text/javascript">
-        var VIDEO_CONFIG = {"thumbnail":"https://i9.ytimg.com/vi_blogger/MdbG2SqsgDQ/1.jpg?sqp\u003dCI67u_0FGPDEAfqGspsBBgjAAhC0AQ\u0026rs\u003dAMzJL3lo6hzI4L-6KWyc7qfTPzGBTqmBiw","iframe_id":"BLOGGER-video-31d6c6d92aac8034-4942","allow_resize":true,"streams"}
-      </script></head>
-<body><div class="main"><div id="videocontainer" class="type-BLOGGER_UPLOADED"><div class="thumbnail-holder"></div>
-<div class="play-button"></div></div></div>
-<script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/190637682-video_compiled.js"></script>
-</body></html>
+</head>
+
+<body>
+        
+<div class="plyr__video-embed" id="player" poster="https://1.bp.blogspot.com/-zw7ea_4plpk/X65m338lk5I/AAAAAAAAC_Q/T-V-SWN5KuMvX28uh4BZs0-1rQOVCcc9QCLcBGAsYHQ/s1366/aowhfoiapfkaas.png>
+  <iframe
+    src="https://www.blogger.com/video.g?token=AD6v5dwv_dRIRDlQ2EZnf0w23CgHVNMQxhbZUhXxkFNjIDMKqW61KeZ_MQlOTYDUn1hmwF-rQoQ8gjR50KyxUYM58D1MGhZLCjtXfqkKIBkmQOJeQ_krnu_BuyiUqE2Va1niiawmyPw?origin=https://plyr.io&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+    allowfullscreen
+    allowtransparency
+    allow="autoplay"
+  ></iframe>
+</div>
+  
+<script src="https://cdn.plyr.io/3.5.1/plyr.js"></script>
+<script>/*<![CDATA[*/const players = Array.from(document.querySelectorAll('.js-player')).map(player => new Plyr(player));/*]]>*/</script>
+</body>
+
+</html>
