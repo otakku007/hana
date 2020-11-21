@@ -1,4 +1,3 @@
-<script type='text/javascript'>
 //<![CDATA[
 ( function() {
 
@@ -28,4 +27,4 @@
 	};
 	
 } )();
-                                   //]]> </script>
+                                   //]]>
